@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>JZ TX Combo Box Control</TITLE>
+<META NAME="Template" CONTENT="C:\Arquivos de programas\Microsoft Office\Modelos\Artigo.dot">
+</HEAD>
+<BODY>
+
+<B><FONT FACE="Arial" SIZE=5><P>JZ XP LABEL v1.0</P>
+</B></FONT><FONT FACE="Arial"><P>Enhanced, easy, functional and objective, this free all-Windows XP-style was made to compose varieties and effects at app design: BorderColor/HoverTime properties, MouseHover/MouseLeave and other. Zip kit contains a nicehand.cur and app with menus, onmouse, clicks, banners, as locked Text Box, etc.</P>
+</FONT><B><FONT FACE="Arial" SIZE=4><P>Author Comments</P>
+</B></FONT><FONT FACE="Arial"><P>Well, I wrote this control by using some few line codes from several authors at Internet whose credits I acknowledge e appreciate.</P>
+
+<P>But the Module.Bas and the Subclass on separate mode to use MouseHover/MouseLeave events and HoverTime property was based on an Article from Source Guru, by HSPC (nickname). I credit to those persons all credits for these codes.</P>
+
+<P>So, thanks and part of credits to Territop (Paul) who had email me the link to see the HSPC Article: "Adding MouseLeave and MouseHover events to Vb6". We were looking how to do a timed cursor query without includes a strong Timer Control in code.</P>
+
+<P>I’ve used this Label to receive and show data, variables, etc, as it were a Text Box with a Locked option, to inhibit any typing and focus.</P>
+</FONT><B><FONT FACE="Arial" SIZE=4><P>Properties</P>
+</FONT><FONT FACE="Arial"><P>Alignment</P>
+</B><P>Indicates disposition of Text in Box.</P>
+</FONT><FONT FACE="Courier New">
+<P>0 – Left</P>
+<P>1 – Right</P>
+<P>2 – Centralize</FONT><FONT FACE="Arial">d</P>
+<B><P>BackColor</P>
+</B><P>Returns/Sets the Background color.</P>
+<B><P>BorderColor</P>
+</B><P>Returns/sets the Border color.</P>
+<B><P>Caption</P>
+</B><P>Returns/sets the text contained in the control.</P>
+<B><P>Font</P>
+</B><P>Returns a Font object.</P>
+<B><P>HoverTime</P>
+</B><P>Time to have elapsed before the MouseHover event action (user staying cursor positioned into control ambit.</P>
+<B><P>HWnd</P>
+</B><P>Returns a handle (from Microsoft Windows) to an object's window.</P>
+<B><P>MouseIcon</P>
+</B><P>Icon or Cursor picture will be the Mouse Pointer when MousePointer is setting to 99.</P>
+</FONT><FONT FACE="Courier New"><P>E.g. pick the &quot;nicehand.cur&quot; picture</FONT><FONT FACE="Arial">. </P>
+<B><P>MousePointer</P>
+</B><P>Returns/sets the type of mouse pointer displayed when over part of an object</P>
+</FONT><FONT FACE="Courier New"><P>E.g. set it to 99 mode recognize the MouseIcon you choose.</P>
+<P>Other options will be in configured Windows collection. </P>
+</FONT><B><FONT FACE="Arial"><P>TextColor</P>
+</B><P>Returns/sets the Text color (on Caption).</P>
+</FONT><B><FONT FACE="Arial" SIZE=4><P>Events</P>
+</FONT><FONT FACE="Arial"><P>Change()</P>
+</B><P>Occurs when the Caption contents are modified.</P>
+<B><P>MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)</P>
+</B><P>Occurs when User picks down the mouse over control.</P>
+<B><P>MouseHover()</P>
+</B><P>Occurs when User pauses the Cursor over Control for defined time (see HoverTime property).</P>
+<B><P>MouseLeave()</P>
+</B><P>Occurs when Cursor gets out the control ambit.</P>
+
+<B><P>MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)</P>
+</B><P>Occurs when the user moves the mouse to Control ambit.</P>
+
+<P>Note: MouseMove starts immediately; MouseHover starts after delaying &quot;HoverTime&quot; milliseconds.</P>
+</FONT><B><FONT FACE="Arial" SIZE=4><P>FINALLY ...</P>
+</FONT><FONT FACE="Arial"><P>How to functionality and test control aspects</P>
+</B><P>Of course you already unzips all kit to a directory.</P>
+<P>So, use VB to open the JZXPLb.Vbp project.</P>
+<P>Compile it and test varieties at Demo/Tutor/Test form.</P>
+
+<P>Enjoy!</P>
+<B><P>How to use the JZ XP Label in your Application (for novices)</P>
+</B>
+<OL>
+
+<LI>Copy the source files JZXPLb.Ctl, MdlProc.bas and clsTrackInfo.cls to your project directory; and</LI>
+<LI>Open our project VB IDE</LI>
+<LI>Add MdlProc.bas as a existent Module;</LI>
+<LI>Add clsTrackInfo.cls as a existent Class; and</LI>
+<LI>Add JZXPLb.ctl as an existent UserControl  (note the control icon will appear at Tool Window)</LI></OL>
+
+<P>&nbsp;</P>
+<B><P>If you find bugs, do improves or enhances to source code,</P>
+</B><P>Send me a copy if you please, OKs?</P>
+
+</FONT><FONT FACE="Arial" SIZE=3><P>JOZE Walter de Moura – RIO DE JANEIRO – Brazil</P>
+<P> – www-joze.it.net  or  qualyum@globo.com</P>
+</FONT><FONT FACE="Arial">
+<P>-oOo-oOo-oOo-</P></FONT></BODY>
+</HTML>
